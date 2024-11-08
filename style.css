@@ -1,0 +1,77 @@
+body {
+  background-color: #1c1c1c; /* Color de fondo */
+  font-family: Arial, sans-serif; /* Fuente base */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; /* Espacio entre elementos */
+  align-items: center; /* Alinear elementos verticalmente */
+}
+.form {
+  margin-top: 2rem;
+}
+.array-of-notes {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: start;
+  flex-direction: column; /* Alinear elementos verticalmente */
+  gap: 1rem; /* Espacio entre elementos */
+}
+
+.text {
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem; /* Espacio inferior */
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem; /* Espacio entre los elementos del formulario */
+  width: 20%;
+}
+
+.input {
+  padding: 0.8rem 0.8rem; /* Relleno interior */
+  border-radius: 4px; /* Bordes redondeados */
+  border: 1px solid #ccc; /* Borde */
+  font-size: 1rem;
+  flex: 1; /* Ocupar todo el espacio disponible */
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.btn {
+  text-decoration: none;
+  height: 3rem; /* Altura fija para el botón */
+  padding: 0 1.2rem; /* Relleno horizontal */
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px; /* Bordes redondeados */
+  background-color: #28a745; /* Fondo verde para el botón */
+  color: white;
+  transition: background-color 0.3s; /* Transición suave */
+  flex: 0 0 auto; /* Mantener el tamaño del botón */
+}
+
+.btn:hover {
+  background-color: #218838; /* Cambiar color al pasar el ratón */
+}
+
+.text-white {
+  color: white;
+}
