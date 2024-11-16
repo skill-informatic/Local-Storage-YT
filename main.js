@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   add.addEventListener("click", (e) => {
     e.preventDefault(); // Previene el comportamiento por defecto del botón
     const newNote = input.value.trim(); //Elimina espacios al inicio y al final
-    consle.log(newNote);
+
     if (newNote === "") {
       console.log("La nota no puede estar vacía");
       return; //Previene la ejecución si la nota no es válida
